@@ -1,0 +1,85 @@
+body {
+    /*background-color:#fcdccc; */
+    background-color: #333333;
+    color: white;
+    font: normal 20px Arial, Helvetica, sans-serif;
+    line-height:1.6em;
+    margin: 20px 55px;
+}
+
+img {
+    width:40%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #ffedde;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/* content */
+
+.container-content {
+    flex: 1;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.mail, .github, .linkedin {
+    margin: 10px;
+}
+
+
+/* about */
+
+.about-me {
+    position: relative;
+    width: 100%;
+    height: 1500px; /*TODO: change to responsive option*/
+    border: 1px solid black;
+}
+
+.action-photo {
+    z-index: 1;
+    position: fixed;
+}
+
+.about-me__text {
+    z-index: 2;
+    position: absolute;
+}
+
+.personal-photo {
+    z-index: 1;
+    position: absolute;
+    bottom: 7.5em;
+    right: 0;
+}
+
+/* contact message */
+
+.contact {
+}
+
+
+/* contact icons */
+
