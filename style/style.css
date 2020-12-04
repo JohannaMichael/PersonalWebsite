@@ -28,7 +28,7 @@ ul {
 h1 {
     width: -moz-fit-content;
     width: fit-content;
-    font-size: 100px;
+    font-size: 140px;
     margin: 0;
 }
 
@@ -67,8 +67,8 @@ h1 {
 .about-me {
     position: relative;
     width: 100%;
-    height: 100em; /*TODO: change to responsive option*/
-    border: 1px solid black;
+    height: 50em; /*TODO: change to responsive option*/
+    /*border: 1px solid black; */
 }
 
 .action-photo {
@@ -79,18 +79,43 @@ h1 {
 .title1, .title2, .title3, .title4, .title5, .title6 {
     z-index: 2;
     position: absolute;
+    height: 60px;
 }
 
 .title1 {
-    width: 100%;
-    top: 25%;
-    left: 1%;
-    right: 20%;
+    width: 1375px;
+    top: 30%;
+    left: 3.5%;
 }
 
 .title2 {
-    top: 30%;
+    width: 1100px;
+    top: 40%;
     left: 20%;
+}
+
+.title3 {
+    width: 800px;
+    top: 50%;
+    left: 45%;
+}
+
+.title4 {
+    width: 800px;
+    top: 60%;
+    left: 30%;
+}
+
+.title5 {
+    width: 800px;
+    top: 70%;
+    left: 10%;
+}
+
+.title6 {
+    width: 800px;
+    top: 80%;
+    left: 10%;
 }
 
 .personal-photo {
