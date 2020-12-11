@@ -8,7 +8,7 @@ body {
 }
 
 img {
-    width:40%;
+    width:650px;
     height: auto;
 }
 
@@ -31,12 +31,51 @@ h1 {
     font-size: 140px;
     margin: 0;
 }
-
-@media screen and (max-width: 600px) {
+ /*
+@media (max-width: 576px) {
     h1 {
-        font-size: 50px;
+        font-size: 45px;
+    }
+    .about-me {
+        height: 20em;
     }
 }
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 45px;
+    }
+    .about-me {
+        height: 500px;
+    }
+}
+
+@media (max-width: 992px) {
+    h1 {
+        font-size: 45px;
+    }
+    .about-me {
+        height: 800px;
+    }
+}
+
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 45px;
+    }
+    .about-me {
+        height: 1200px;
+    }
+}
+
+@media (min-width: 1201px) {
+    h1 {
+        font-size: 45px;
+    }
+    .about-me {
+        height: 90em;
+    }
+} */
 
 .container {
     display: flex;
@@ -67,7 +106,7 @@ h1 {
 .about-me {
     position: relative;
     width: 100%;
-    height: 50em; /*TODO: change to responsive option*/
+    height: 70em;
     /*border: 1px solid black; */
 }
 
@@ -84,38 +123,38 @@ h1 {
 
 .title1 {
     width: 1375px;
-    top: 30%;
+    top: 20%;
     left: 3.5%;
 }
 
 .title2 {
     width: 1100px;
-    top: 40%;
-    left: 20%;
+    top: 30%;
+    left: 15%;
 }
 
 .title3 {
     width: 800px;
-    top: 50%;
+    top: 40%;
     left: 45%;
 }
 
 .title4 {
     width: 800px;
-    top: 60%;
+    top: 50%;
     left: 30%;
 }
 
 .title5 {
     width: 800px;
-    top: 70%;
-    left: 10%;
+    top: 60%;
+    left: 15%;
 }
 
 .title6 {
     width: 800px;
-    top: 80%;
-    left: 10%;
+    top: 70%;
+    left: 30%;
 }
 
 .personal-photo {
