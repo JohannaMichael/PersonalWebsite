@@ -8,7 +8,7 @@ body {
     color: white;
     font-style: normal;
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-size: calc(0.6em + 1vw);
+    font-size: calc(0.9em + 1vw);
     line-height: calc(1.5em + 0.1vw);
     margin-top: 3vw;
     margin-left: 6vh;
@@ -40,13 +40,13 @@ ul {
 h1 {
     width: -moz-fit-content;
     width: fit-content;
-    font-size: calc(3.7em + 1vw);
-    transform: scale(0.85, 1.4);
+    font-size: calc(1.9em + 1vw);
+    /*transform: scale(0.98, 1.1); */
     margin: 0;
 }
 
-h3 {
-    font-size: calc(0.8em + 0.5vw);
+h2 {
+    font-size: calc(1.1em + 0.5vw);
 }
 
 
@@ -73,7 +73,7 @@ h3 {
     /*border: 1px solid black; */
 }
 
-.title1, .title2, .title3, .title4, .title5, .title6 {
+.title1, .title2, .title3, .title4, .title5, .title6, .title7, .title8, .title9 {
     z-index: 2;
     position: absolute;
 }
@@ -83,28 +83,39 @@ h3 {
 }
 
 .title2 {
-    top: 20%;
-    left: -24%;
+    /*text-align: center; */
+    top: 10%;
 }
 
 .title3 {
-    top: 33%;
-    left: 3%;
+    top: 17%;
+    left: 12%;
 }
 
 .title4 {
-    top: 46%;
-    left: 20%;
+    top: 24%;
+    left: 12%;
 }
 
 .title5 {
-    top: 59%;
-    left: 3%;
+    top: 31%;
 }
 
 .title6 {
-    top: 72%;
-    left: -5%;
+    top: 38%;
+    left: 12%;
+}
+
+.title7 {
+    top: 45%;
+}
+
+.title8 {
+    top: 52%;
+}
+
+.title9 {
+    top: 59%;
 }
 
 .action-photo {
