@@ -143,7 +143,7 @@ h2 {
 .contact {
     font-size: calc(1.1em + 0.5vw);
     margin: 0.5em 0.5em 0.5em 0;
-    line-height: calc(1.1em + 0.1vw);
+    line-height: calc(1.3em + 0.1vw);
 }
 
 
@@ -174,13 +174,13 @@ h2 {
     .personal-photo {
         right: 10%;
         width: 29%;
-        bottom: -10%;
+        bottom: -12%;
     }
 
     .contact {
         font-size: calc(2.1em + 0.5vw);
         margin: 0.5em 0.5em 0.5em 0;
-        line-height: calc(1.1em + 0.1vw);
+        line-height: calc(1.3em + 0.1vw);
     }
 }
 
