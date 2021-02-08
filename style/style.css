@@ -26,7 +26,6 @@ img {
 a {
     text-decoration: none;
     color: white;
-    line-height: calc(1.5em + 0.1vw);
 }
 
 a:hover {
@@ -40,13 +39,14 @@ ul {
 h1 {
     width: -moz-fit-content;
     width: fit-content;
-    font-size: calc(1.9em + 1vw);
+    font-size: calc(1.7em + 1vw);
     /*transform: scale(0.98, 1.1); */
     margin: 0;
 }
 
 h2 {
-    font-size: calc(1.1em + 0.5vw);
+    font-size: calc(1em + 0.5vw);
+    margin: 0.1em 0.1em 0.1em 0;
 }
 
 
@@ -60,7 +60,8 @@ h2 {
 }
 
 .mail, .github, .linkedin {
-    margin: 10px;
+    margin: 0.7em;
+    font-size:1.3em;
 }
 
 
@@ -123,27 +124,27 @@ h2 {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    width: 60%;
+    width: 90%;
 }
 
 .personal-photo {
     z-index: 1;
     position: absolute;
-    bottom: 15%;
-    right: 0;
-    width: 35%;
+    bottom: 8%;
+    right: 6%;
+    width: 32%;
     height: 25%;
 }
 
-/* contact message */
-
-.contact {
+.email_text {
+    text-decoration: underline;
 }
 
-
-/* contact icons */
-
-
+.contact {
+    font-size: calc(1.1em + 0.5vw);
+    margin: 0.5em 0.5em 0.5em 0;
+    line-height: calc(1.1em + 0.1vw);
+}
 
 
 /* media queries for phone, iPad and larger desktop screens */
@@ -161,12 +162,25 @@ h2 {
     }
 
     h2 {
-        font-size: calc(1.3em + 0.5vw);
+        font-size: calc(1.6em + 0.5vw);
+        margin: 0.4em 0.4em 0.4em 0;
     }
 
     .title1 {
         top: 3%;
         display: block;
+    }
+
+    .personal-photo {
+        right: 10%;
+        width: 29%;
+        bottom: -10%;
+    }
+
+    .contact {
+        font-size: calc(2.1em + 0.5vw);
+        margin: 0.5em 0.5em 0.5em 0;
+        line-height: calc(1.1em + 0.1vw);
     }
 }
 
@@ -182,12 +196,30 @@ h2 {
     }
 
     h2 {
-        font-size: calc(1.3em + 0.5vw);
+        font-size: calc(1.9em + 0.5vw);
+        margin: 0.4em 0.4em 0.4em 0;
     }
 
     .title1 {
         top: 3%;
         display: block;
+    }
+
+    .action-photo {
+        width: 60%;
+    }
+
+    .personal-photo {
+        right: 5%;
+        width: 26%;
+        height: 25%;
+        bottom: 0;
+    }
+
+    .contact {
+        font-size: calc(2.2em + 0.5vw);
+        margin: 0.5em 0.5em 0.5em 0;
+        line-height: calc(1.1em + 0.1vw);
     }
 
 }
@@ -204,8 +236,26 @@ h2 {
         font-size: calc(3.8em + 0.6vw);
     }
 
-    h2 {
-        font-size: calc(1.3em + 0.5vw);
+    /*h2 {
+        font-size: calc(2.2em + 0.5vw);
+        margin: 0.6em 0.6em 0.6em 0;
+    } */
+
+    .action-photo {
+        width: 60%;
+    }
+
+    .personal-photo {
+        right: 5%;
+        width: 26%;
+        height: 25%;
+        bottom: 0;
+    }
+
+    .contact {
+        font-size: calc(2.2em + 0.5vw);
+        margin: 0.5em 0.5em 0.5em 0;
+        line-height: calc(1.1em + 0.1vw);
     }
 
     .title1 {
@@ -213,11 +263,4 @@ h2 {
         display: block;
     }
 }
-
-
-
-/*
-STILL TODO:
-- different background(maybe photo?)
- */
 
