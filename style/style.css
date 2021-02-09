@@ -140,6 +140,11 @@ h2 {
     text-decoration: underline;
 }
 
+.legal_text {
+    text-decoration: underline;
+    font-size: calc(0.4em + 0.5vw);
+}
+
 .contact {
     font-size: calc(1.1em + 0.5vw);
     margin: 0.5em 0.5em 0.5em 0;
@@ -174,7 +179,7 @@ h2 {
     .personal-photo {
         right: 10%;
         width: 29%;
-        bottom: -12%;
+        bottom: 0;
     }
 
     .contact {
