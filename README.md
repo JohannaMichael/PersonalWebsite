@@ -2,7 +2,7 @@
 
 ## BACK TO THE ROOTS!
 
-Simple (yet effective) personal static website that only uses HTML and CSS.
+Simple (yet effective) personal static website that only uses HTML and CSS. Go to [https://johannamichael.com](https://johannamichael.com) to take a look.
 
 ## Work in Progress
 
