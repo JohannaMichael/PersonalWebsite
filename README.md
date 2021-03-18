@@ -6,8 +6,8 @@ Simple (yet effective) personal static website that only uses HTML and CSS. Go t
 
 ## Work in Progress
 
-Of course, I can add my CV or change some stylings.
+Always room for adjustments and improvements, like adding my CV or changing stylings.
 
-Let's see, in the future I might spice it up with some Javascript or the cooler ReactJS Framework. 
+Let's see, in terms of code, I might spice it up with some Javascript or the cooler ReactJS Framework. GatsbyJS also looks like an option.
 
-Although technically it's not necessary for now.
+Although all of the above isn't technically necessary for now.
